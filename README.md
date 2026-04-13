@@ -46,7 +46,7 @@ Microsoft does not allow direct Power BI → Power Apps connections. The workaro
 | Front-end UI | Power Apps (Canvas) | Dealer selection, limit borrowing |
 | Live balance data | Power BI report | Source of truth for exposure |
 | Data bridge | Power Automate | Moves Power BI → SharePoint |
-| Storage | SharePoint Lists | 'Stockplan Live Balance', 'DLL Live Balance' |
+| Storage | SharePoint Lists | `Stockplan Live Balance`, `DLL Live Balance` |
 | Audit trail | SharePoint List | `Audit - Entries Log - Limit Monitoring UKIE` |
 | Solution container | Power Platform Solution | `Wholesale Limit Monitoring UKIE` |
 
@@ -113,12 +113,12 @@ Scroll to see Power BI reports embedded showing:
 
 | Screenshot | Description |
 |------------|-------------|
-| `screenshot-frontpage.png` | Dealer selection dropdown |
-| `screenshot-borrow-interface.png` | Borrow window with left/right panes |
-| `screenshot-pbi-reports.png` | Embedded Power BI reports showing live balance |
-| `screenshot-sharepoint-audit.png` | Audit log entries in SharePoint |
-| `screenshot-powerautomate-flows.png` | List of Power Automate flows |
-| `screenshot-solution.png` | Solution view in Power Platform |
+| <img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/a37195bc-4d4e-4d03-940b-7fd1c05baff1" /> | Dealer selection dropdown |
+| <img width="1055" height="594" alt="image" src="https://github.com/user-attachments/assets/9143ff13-e9c8-482b-84b0-9810507ef35a" /> | Borrow window with left/right panes |
+| <img width="740" height="755" alt="image" src="https://github.com/user-attachments/assets/19138cb0-6cd0-40aa-84d3-c1c856a59ae4" /> <img width="882" height="469" alt="image" src="https://github.com/user-attachments/assets/5437cd4b-0893-4f89-bd7b-91c3faac546a" /> | Embedded Power BI reports showing live balance |
+| <img width="1494" height="245" alt="image" src="https://github.com/user-attachments/assets/b49e111b-fbd1-49ce-bb30-7fcbf8fea81e" /> | Audit log entries in SharePoint |
+| <img width="828" height="179" alt="image" src="https://github.com/user-attachments/assets/1ec3b81e-ff79-42c0-8f59-9868ab59def1" /> | List of Power Automate flows |
+| <img width="828" height="179" alt="image" src="https://github.com/user-attachments/assets/d0b08b8d-f414-4b91-a958-566f5e67feee" /> | Solution view in Power Platform |
 
 ---
 
