@@ -13,7 +13,7 @@
 
 The **Wholesale Limit Monitoring App** enables internal teams at Volvo Financial Services to:
 
-- View dealer wholesale limits across subcategories (Stockplan New/Used, DDL, RV, etc.)
+- View dealer wholesale limits across subcategories (Stockplan New/Used, DLL, RV, etc.)
 - Borrow limit between subcategories with a simple interface
 - See live remaining balances via integrated Power BI data
 - Maintain a complete audit trail of all limit adjustments
@@ -135,6 +135,18 @@ Scroll to see Power BI reports embedded showing:
 > **Solution:** Power Automate flows run on schedule to sync Power BI data into SharePoint lists, which Power Apps reads.
 
 
+## Terminology & Abbreviations
+
+| Term | Description |
+|------|-------------|
+| **Stockplan New** | Wholesale financing for **new** dealer inventory. Dealers borrow against new vehicles on their lot. |
+| **Stockplan Used** | Wholesale financing for **used** dealer inventory. Separate limit from new vehicles. |
+| **DLL** | Dealer Lease Line – financing line for dealer's **leasing operations** (not vehicle inventory). |
+| **RV** | Residual Value – financing related to lease/contract end values. Borrowing from RV means shifting limit from residual value pool to another category. |
+| **Borrow** | Transfer limit from one subcategory to another. Example: Borrow £100k from RV → add to DLL. Total limit stays the same; allocation changes. |
+| **Headroom** | Remaining available limit = (Current Limit) - (Current Exposure). Green = good. Red = over limit. |
+| **CER** | Credit Exposure Report – Power BI dashboard showing real-time exposure across all dealers. |
+| **Live Balance** | Real-time exposure data from Power BI. App shows cached version (max 15 min delay due to Microsoft limitation). |
 
 ## Author
 
