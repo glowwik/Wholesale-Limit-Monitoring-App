@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 The **Wholesale Limit Monitoring App** enables internal teams at Volvo Financial Services to:
 
@@ -18,11 +18,11 @@ The **Wholesale Limit Monitoring App** enables internal teams at Volvo Financial
 - See live remaining balances via integrated Power BI data
 - Maintain a complete audit trail of all limit adjustments
 
-✅ **No more manual spreadsheets** | ✅ **Full compliance traceability** | ✅ **Real-time visibility**
+**No more manual spreadsheets** | **Full compliance traceability** | **Real-time visibility**
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 Power BI (Credit Workspace)
 ↓
 Power Automate Flows (scheduled/triggered)
@@ -39,7 +39,7 @@ Microsoft does not allow direct Power BI → Power Apps connections. The workaro
 
 ---
 
-## 📁 Components
+## Components
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
@@ -52,7 +52,7 @@ Microsoft does not allow direct Power BI → Power Apps connections. The workaro
 
 ---
 
-## 🔧 SharePoint Lists Used
+## SharePoint Lists Used
 
 | List Name | Purpose |
 |-----------|---------|
@@ -64,7 +64,7 @@ Microsoft does not allow direct Power BI → Power Apps connections. The workaro
 
 ---
 
-## 🔄 Power Automate Flows
+## Power Automate Flows
 
 | Flow Name | Function |
 |-----------|----------|
@@ -74,7 +74,7 @@ Microsoft does not allow direct Power BI → Power Apps connections. The workaro
 
 ---
 
-## 📱 App Walkthrough
+## App Walkthrough
 
 ### Step 1 – Front Page
 Select a dealer from the dropdown.
@@ -92,7 +92,7 @@ Scroll to see Power BI reports embedded showing:
 
 ---
 
-## 📊 Power BI Reports
+## Power BI Reports
 
 | Report | Workspace | Filters |
 |--------|-----------|---------|
@@ -101,22 +101,15 @@ Scroll to see Power BI reports embedded showing:
 
 ---
 
-## 🧪 Example User Flow
+##  Example User Flow
 
 > User borrows **£100,000 from RV** and adds **£100,000 to DLL**  
-> ✅ App updates current limits instantly  
-> ✅ Audit record created in SharePoint with timestamp, dealer, amounts, user
+>  App updates current limits instantly  
+>  Audit record created in SharePoint with timestamp, dealer, amounts, user
 
 ---
 
-## 🚀 How to Access
-
-1. **Power Apps desktop version** (recommended)
-2. **Front page of Credit SharePoint** – embedded link available
-
----
-
-## 📸 Screenshots
+## Screenshots
 
 | Screenshot | Description |
 |------------|-------------|
@@ -129,43 +122,18 @@ Scroll to see Power BI reports embedded showing:
 
 ---
 
-## ⚠️ Known Limitation
+## Known Limitation
 
 > Microsoft does not allow direct Power BI → Power Apps connectivity.  
 > **Solution:** Power Automate flows run on schedule to sync Power BI data into SharePoint lists, which Power Apps reads.
 
----
 
-## 👥 Stakeholders
 
-| Role | Name |
-|------|------|
-| Responsible | Wiktoria Glowacka |
-| Accountable | James Keeping |
-| Consulted | Chris, Alison, Jayne |
-
----
-
-## 📅 Version History
-
-| Version | Date | Change | Modified by |
-|---------|------|--------|-------------|
-| 1 | 20/03/2026 | New | Wiktoria |
-
----
-
-## 📄 License
-
-Internal use – Volvo Financial Services
-
----
-
-## 🙋‍♀️ Author
+## Author
 
 **Wiktoria Glowacka**  
 Power Platform Developer
 
----
 
 ## 🔗 Related Links
 
