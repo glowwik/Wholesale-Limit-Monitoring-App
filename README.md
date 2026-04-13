@@ -20,6 +20,8 @@ The **Wholesale Limit Monitoring App** enables internal teams at Volvo Financial
 
 **No more manual spreadsheets** | **Full compliance traceability** | **Real-time visibility**
 
+<img width="1083" height="687" alt="Screenshot 2026-04-13 083942" src="https://github.com/user-attachments/assets/23adcb57-a37d-4012-adcb-7d3f53ada305" />
+
 ---
 
 ## Architecture
