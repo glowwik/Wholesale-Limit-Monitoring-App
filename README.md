@@ -46,7 +46,7 @@ Microsoft does not allow direct Power BI → Power Apps connections. The workaro
 | Front-end UI | Power Apps (Canvas) | Dealer selection, limit borrowing |
 | Live balance data | Power BI report | Source of truth for exposure |
 | Data bridge | Power Automate | Moves Power BI → SharePoint |
-| Storage | SharePoint Lists | Stockplan Live Balance, DLL Live Balance |
+| Storage | SharePoint Lists | 'Stockplan Live Balance', 'DLL Live Balance' |
 | Audit trail | SharePoint List | `Audit - Entries Log - Limit Monitoring UKIE` |
 | Solution container | Power Platform Solution | `Wholesale Limit Monitoring UKIE` |
 
